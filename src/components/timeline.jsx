@@ -8,8 +8,8 @@ export default class Timeline extends Component {
           <div className="colorlib-narrow-content">
             <div className="row">
               <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span className="heading-meta">highlights</span>
-                <h2 className="colorlib-heading animate-box">Timeline</h2>
+                <span className="heading-meta">Highlights</span>
+                <h2 className="colorlib-heading animate-box">Work Experience</h2>
               </div>
             </div>
             <div className="row">
@@ -18,33 +18,34 @@ export default class Timeline extends Component {
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-3">
-                        <i className="icon-pen2" />
+                        <i className="icon-briefcase" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Internship at Juniper <span>2019-present</span></h2>
-                        <p>I recently have joined the Juniper Networs as a Software Developer-Intern in the DevOps team. My major part of the work has been into the field of creating sustainable and flexible CI/CD (Continuous Integration & Continuous Development) pipelines which enables developers at Juniper to do rapid development. I am also exploring the role of container technology like Docker and container-orchrastation technologies like K8s, Swarm to create industry standard production environments.</p>
+                        <h2>QA Automation Analyst, Intern at J.D. Power | Autodata Solutions  <span>  Aug 2020 - present</span></h2>
+                        <p>I have recently joined the Autodata Solutions as a QA Automation Analyst Intern. My tasks in this role are:<br/><br/>
+                        <ul>	
+                          <li>Assigned to the COE (Center of Excellence) team to help spread best practices across the company’s services.</li>
+                          <li>Develop a detailed technical understanding of client needs and project requirements.</li>
+                          <li>Develop, execute, and integrate functional and non-functional level automated tests using Java and Cucumber to verify requirements such as system, unit, reliability, usability, and acceptance tests.</li>
+                          <li>Contribute to the investigation and triage of software defects for assigned projects.</li>
+                        </ul>
+                        </p>
                       </div>
                     </div>
                   </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-4">
-                        <i className="icon-pen2" />
+                        <i className="icon-briefcase" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Undergraduation at DAIICT<span>2015-2019</span></h2>
-                        <p>I am pursuing my under-graduation studies with major in I.C.T.(Information & Communication Technology). I have taken courses like DSA, OOPs, Computer Networks, IOT, Web-Data Management over the years and have better understanding of these subjects.I have also been part of S.B.G.(Student Body Govenance) scince my first year of college.</p>
-                      </div>
-                    </div>
-                  </article>
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-5">
-                        <i className="icon-pen2" />
-                      </div>
-                      <div className="timeline-label">
-                        <h2>Primary and Higher Education <span>2003-2015</span></h2>
-                        <p>I have completed my higher secondary education with major subjects as Physics,Chemistry & Maths with 91 merit. During my time at school, I have developed interest in solving complex problems of the fundamental physics which helped me to improve my understanding of any problem and also my mathematical skills to actually solve the problems.</p> 
+                        <h2>Web Developer/Designer at Western University<span>  May - Aug 2020</span></h2>
+                        <p>I worked as a web developer/designer for the whole summer with the Dept. of Earth Sciences at Western University to take the lead in developing a website from scratch for the ‘GAC-MAC LONDON 2021’ event.<br/> <br/>
+                        <ul>
+                          <li>Designed and developed the front-end using a combination of both PHP and WordPress. While the back-end was developed using PHP along with MySQL as the database tool.</li>
+                          <li>Deployed the website onto one of Western University’s servers using SSL certificates.</li>
+                        </ul>
+                        </p>
                       </div>
                     </div>
                   </article>
