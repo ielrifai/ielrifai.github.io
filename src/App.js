@@ -9,15 +9,12 @@ import Timeline from './components/timeline'
 class App extends Component {
   render() {
     return (
-      <div id="colorlib-page">
-        <div id="container-wrap">
-         	<Sidebar></Sidebar>
+      <div id="colorlib-page">         	
 				<div id="colorlib-main">
 					<Home></Home>
 					<About></About>
           <Projects></Projects>
 					<Timeline></Timeline>
-          	</div>
       	</div>
       </div>
     );

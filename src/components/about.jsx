@@ -13,7 +13,8 @@ export default class About extends Component {
                     <div className="about-desc">
                     <span className="heading-meta">About Me</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p>A fourth-year Software Engineering undergraduate student at Western University with an interest in software design, web development, mobile app development, databases, and operating systems.</p>
+                    <img className="author-img" src="images/LinkedIn_pic.jpg" style={{float:"right", position: "relative", right: "200px", width: "25%", height: "50%", borderRadius: "50%"}}/>
+                    <p>A fourth-year Software Engineering undergraduate student at Western University with an interest <br/>in software design, web development, mobile app development, databases, and operating systems.</p>
                     <p>When I'm not coding my next project, I enjoy
                         <ul>
                             <li>Watching/Playing Soccer</li>
@@ -31,7 +32,7 @@ export default class About extends Component {
         <section className="colorlib-about">
         <div className="colorlib-narrow-content">
             <div className="row">
-            <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+            <div className="about-desc" data-animate-effect="fadeInLeft">
                 <span className="heading-meta">Skills</span>
                 <h2 className="colorlib-heading">What are my strengths?</h2>
             </div>
@@ -91,7 +92,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                 <span className="heading-meta">Game Development</span>
-                    <p>I have built a shoot'em up (SHUMP) game using C# as the language and Unity Gaming Engine as the platform.
+                    <p>I have built a shoot'em up (SHUMP) style game using C# as the programming language and Unity Gaming Engine as the platform.
                     </p>
                 </div>
                 </div>

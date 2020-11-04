@@ -223,8 +223,8 @@ figure {
   margin: 0 auto; }
 
 #colorlib-main {
-  width: calc(100% - 300px);
-  float: right;
+  width: 100%;
+  float: none;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -266,7 +266,7 @@ figure {
         display: block;
         margin-bottom: 10px; }
         #colorlib-hero .flexslider .flex-control-nav li a {
-          background: #55da92;
+          background: #e4b6bb;
           -webkit-box-shadow: none;
           box-shadow: none;
           width: 12px;
@@ -275,12 +275,14 @@ figure {
           #colorlib-hero .flexslider .flex-control-nav li a.flex-active {
             cursor: pointer;
             background: transparent;
-            border: 2px solid #2c98f0; }
+            border: 2px solid #e4b6bb; }
     #colorlib-hero .flexslider .flex-direction-nav {
       display: none; }
     #colorlib-hero .flexslider .slider-text {
       display: table;
       opacity: 0;
+      text-align: center;
+      left: 10px;
       min-height: 500px;
       z-index: 9; }
       #colorlib-hero .flexslider .slider-text > .slider-text-inner {
@@ -295,7 +297,7 @@ figure {
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
-          color: #55da92;
+          color: #c5b565;
           font-family: "Playfair Display", Georgia, serif; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
@@ -334,11 +336,11 @@ figure {
           font-weight: 400; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
             color: #ccd6f6;
-            border: 1px solid #55da92;
+            border: 1px solid #c5b565;
             background: transparent !important; }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               background: transparent !important;
-              border: 1px solid #000 !important; }
+              border: 1px solid #ccd6f6 !important; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }
@@ -381,10 +383,11 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 2em;
+  padding-top: 3em;
   padding-bottom: 2em;
   background: #0a192f;
   clear: both;
+  border: 1px solid #c5b5654d;
   width: 100%;
   display: block; }
   @media screen and (max-width: 768px) {
@@ -409,6 +412,7 @@ body.offcanvas {
 .colorlib-heading {
   font-size: 18px;
   margin-bottom: 2em;
+  text-align: center;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -423,9 +427,10 @@ body.offcanvas {
 .heading-meta {
   margin-bottom: 15px;
   display: block;
-  font-size: 10px;
+  text-align: center;
+  font-size: 14px;
   text-transform: uppercase;
-  color: #55da92;
+  color: #c5b565;
   font-weight: 500;
   letter-spacing: 5px; }
 
@@ -434,14 +439,26 @@ body.offcanvas {
   height: 600px;
   margin-bottom: 30px; }
 
-.about-desc h3 {
-  font-size: 18px;
+.home {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.about-desc h1 {
   margin-bottom: 15px;
   display: block;
-  color: #55da92;
+  color: #a3767b;
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 0.5px;
   font-weight: 500; }
+
+.about-desc h3 {
+  margin-bottom: 15px;
+  display: block;
+  color: #c6d0f0;
+  letter-spacing: 5px;
+  font-weight: 500; } 
 
 .hire {
   padding: 2em;
@@ -531,7 +548,7 @@ body.offcanvas {
   position: absolute;
   display: block;
   width: 4px;
-  background: #55d992;
+  background: #c5b565;
   top: 20px;
   bottom: 20px;
   margin-left: 29px; }
@@ -559,7 +576,7 @@ body.offcanvas {
   text-align: center;
   -moz-box-shadow: 0 0 0 5px #fff;
   -webkit-box-shadow: 0 0 0 5px #fff;
-  box-shadow: 0 0 0 5px #55d992;
+  box-shadow: 0 0 0 5px #c5b565;
   line-height: 40px;
   float: left; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
@@ -573,7 +590,7 @@ body.offcanvas {
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-5 {
     background: #2a009e; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-none {
-    background: #fff;
+    background: #c5b565;
     width: 20px;
     height: 20px;
     margin-left: 10px; }
@@ -939,7 +956,7 @@ body.offcanvas {
   position: relative;
   height: 400px;
   width: 100%;
-  border: 2px solid #55d992;
+  border: 2px solid #c5b565;
   display: block;
   margin-bottom: 30px; }
   .project .website1 {

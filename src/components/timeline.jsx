@@ -7,7 +7,7 @@ export default class Timeline extends Component {
         <section className="colorlib-experience" data-section="timeline">
           <div className="colorlib-narrow-content">
             <div className="row">
-              <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+              <div className="about-desc" data-animate-effect="fadeInLeft">
                 <span className="heading-meta">Highlights</span>
                 <h2 className="colorlib-heading animate-box">Work Experience</h2>
               </div>
@@ -46,12 +46,6 @@ export default class Timeline extends Component {
                           <li>Deployed the website onto one of Western University’s servers using SSL certificates.</li>
                         </ul>
                         </p>
-                      </div>
-                    </div>
-                  </article>
-                  <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-none">
                       </div>
                     </div>
                   </article>
