@@ -111,7 +111,7 @@ export default class Projects extends Component {
 											</span><br />
 											<p className="icon">
 												<span><a><i className="icon-code" /> Github's markdown language</a></span>
-												<span><a href="https://github.com/ielrifai/ielrifai.github.io" target="_blank" rel="noopener noreferrer"><i className="icon-github" /> Source</a></span>
+												<span><a href="https://github.com/ielrifai/Portfolio_Website1.0" target="_blank" rel="noopener noreferrer"><i className="icon-github" /> Source</a></span>
 											</p>
 										</div>
 									</div>
