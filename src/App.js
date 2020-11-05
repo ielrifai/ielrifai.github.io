@@ -42,7 +42,6 @@ class App extends Component {
                 <li><a href="https://github.com/ielrifai" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
                 <li><a href="mailto:ielrifai.uwo.ca" target="_blank" rel="noopener noreferrer"><i className="icon-mail" /></a></li>
                 <li><a href="mailto:ielrifai.uwo.ca" target="_blank" rel="noopener noreferrer"><i className="icon-" /></a></li>
-                <li><a href="mailto:ielrifai.uwo.ca" target="_blank" rel="noopener noreferrer"><i className="icon-" /></a></li>
             </ul>
           </div>
           </Footer>
