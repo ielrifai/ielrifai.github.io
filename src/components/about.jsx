@@ -13,9 +13,9 @@ export default class About extends Component {
                     <div className="about-desc">
                     <span className="heading-meta">About Me</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
-                    <img className="author-img" src="images/LinkedIn_pic.jpg" style={{float:"right", position: "relative", right: "200px", width: "25%", height: "50%", borderRadius: "50%"}}/>
+                    <img className="author-img" src="images/LinkedIn_pic.jpg" style={{float:"right", position: "relative", width: "25%", height: "50%", borderRadius: "50%"}}/>
                     <p>A fourth-year Software Engineering undergraduate student at Western University with an interest <br/>in software design, web development, mobile app development, databases, and operating systems.</p>
-                    <p>When I'm not coding my next project, I enjoy
+                    <p>When I'm not studying or coding my next project, I enjoy
                         <ul>
                             <li>Watching/Playing Soccer</li>
                             <li>Hanging out with family & friends</li>
