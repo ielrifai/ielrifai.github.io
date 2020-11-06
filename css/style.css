@@ -17,7 +17,7 @@ body {
   font-size: 15px;
   line-height: 1.8;
   color: #ccd6f6; }
-  @media screen and (max-width: 992px) {
+  @media only screen and (max-width: 992px) {
     body {
       font-size: 16px; } }
 
@@ -33,14 +33,14 @@ a {
 
 ul {
   margin: 30px 30px 30px 30px; }
-  @media screen and (max-width: 992px) {
+  @media only screen and (max-width: 992px) {
   ul  {
     font-size: 16px;
     margin: 30px 30px 30px 30px; }}
 p {
   margin: 30px 30px 30px 30px; 
   font-size: 20px;}
-  @media screen and (max-width: 992px) {
+  @media only screen and (max-width: 992px) {
     p {
       font-size: 16px;
       margin: 30px 30px 30px 30px; }}
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", Georgia, serif;
   font-weight: 400;
   margin: 30px 30px 30px 30px;  }
-  @media screen and (max-width: 992px) {
+  @media only screen and (max-width: 992px) {
     h1, h2, h3, h4, h5, h6 {
       font-size: 16px;
       margin: 30px 30px 30px 30px; }}
@@ -67,7 +67,7 @@ figure {
     color: #b3b3b3;
     font-style: italic;
     font-family: "Quicksand", Arial, sans-serif; }
-    @media screen and (max-width: 480px) {
+    @media only screen and (max-width: 480px) {
       figure figcaption {
         width: 100%; } }
 
@@ -100,7 +100,7 @@ figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  @media screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     #colorlib-aside {
       width: 300px;
       margin: 30px 30px 30px 30px; 
@@ -148,7 +148,7 @@ figure {
       text-align: center;
       margin: 0;
       padding: 0; }
-      @media screen and (max-width: 768px) {
+      @media only screen and (max-width: 768px) {
         #colorlib-aside #colorlib-main-menu ul {
           margin: 0 0 2em 0; } }
       #colorlib-aside #colorlib-main-menu ul li {
@@ -213,7 +213,7 @@ figure {
     color: #55da92;
     padding: 0 20px;
     width: 100%; }
-    @media screen and (max-width: 768px) {
+    @media only screen and (max-width: 768px) {
       #colorlib-aside .colorlib-footer {
         position: relative;
         bottom: 0; } }
@@ -245,7 +245,7 @@ figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  @media screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     #colorlib-main {
       width: 100%;
       padding: 0; } }
@@ -276,7 +276,7 @@ figure {
       float: left;
       width: auto;
       margin: 30px 30px 30px 30px;  }
-      @media screen and (max-width: 768px) {
+      @media only screen and (max-width: 768px) {
         #colorlib-hero .flexslider .flex-control-nav {
           top: 100px; 
           margin: 30px 30px 30px 30px; } }
@@ -309,7 +309,7 @@ figure {
         min-height: 700px;
         padding: 2.5em;
         position: relative; }
-        @media screen and (max-width: 768px) {
+        @media only screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
@@ -322,7 +322,7 @@ figure {
           font-size: 80px;
           line-height: 1.3;
           font-weight: 700; }
-          @media screen and (max-width: 768px) {
+          @media only screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
               font-size: 28px; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
@@ -336,7 +336,7 @@ figure {
             border-bottom: 1px solid rgba(44, 152, 240, 0.7); }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner .heading-section {
           font-size: 50px; }
-          @media screen and (max-width: 768px) {
+          @media only screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .heading-section {
               font-size: 30px; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner s.colorlib-lead {
@@ -359,7 +359,7 @@ figure {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               background: transparent !important;
               border: 1px solid #ccd6f6 !important; }
-          @media screen and (max-width: 768px) {
+          @media only screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }
 
@@ -387,7 +387,7 @@ body.offcanvas {
   padding: 0 2.5em;
   margin: 30px 30px 30px 30px;
   }
-  @media screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     .colorlib-narrow-content {
       padding: 0;
       margin: 30px 30px 30px 30px; } }
@@ -411,7 +411,7 @@ body.offcanvas {
   border-bottom: 1px solid #c5b5654d;
   width: 100%;
   display: block; }
-  @media screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     .colorlib-experience,
     .colorlib-skills,
     .colorlib-education,
@@ -441,7 +441,7 @@ body.offcanvas {
   position: relative; }
   .colorlib-heading span {
     display: block; }
-  @media screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     .colorlib-heading {
       margin-bottom: 3em; } }
 
@@ -470,7 +470,7 @@ body.offcanvas {
   justify-content: space-around;
   width: 15%;
 }
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .footer-icons {
     list-style: none;
     display: flex; 
@@ -483,7 +483,7 @@ body.offcanvas {
   display: flex; 
   justify-content: center;
 }
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .footer-div {
     display: flex; 
     justify-content: center;
@@ -502,20 +502,50 @@ body.offcanvas {
   transform: translate(-50%, -50%);
 }
 
-.about-desc ul {
-  list-style-position: inside;
-  text-align: match-parent;
-  }
-
 .about-desc p {
   margin-bottom: 15px;
-  display: block;
+  display: table;
   color: #c6d0f0;
   letter-spacing: 0.5px;
   font-weight: 400; 
   font-size: 20px;
-  text-align: center;
+  text-align: left;
   }
+  @media only screen and (max-width: 768px) {
+    .about-desc p {
+    margin-bottom: 15px;
+    display: table;
+    color: #c6d0f0;
+    letter-spacing: 0.5px;
+    font-weight: 400; 
+    font-size: 16px;
+    text-align: left; } }
+
+  .about-desc p ul{
+    margin-bottom: 15px;
+    display: table;
+    color: #c6d0f0;
+    letter-spacing: 0.5px;
+    font-weight: 400; 
+    font-size: 20px;
+    text-align: left;
+    }
+    @media only screen and (max-width: 768px) {
+      .about-desc p ul {
+      margin-bottom: 15px;
+      display: table;
+      color: #c6d0f0;
+      letter-spacing: 0.5px;
+      font-weight: 400; 
+      font-size: 16px;
+      text-align: left; } }
+
+.author-img {
+  margin-right: 5em;
+}
+@media only screen and (max-width: 768px) {
+  .author-img  {
+    margin-right: 1em; } }
 
 .about-desc h1 {
   margin-bottom: 15px;
@@ -744,7 +774,7 @@ body.offcanvas {
   margin-bottom: 80px;
   position: relative;
   z-index: 0; }
-  @media screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     .services {
       margin-bottom: 4em; } }
   .services .icon {
@@ -924,7 +954,7 @@ body.offcanvas {
       color: #2c98f0;
       font-size: 60px;
       height: 100px; }
-      @media screen and (max-width: 1200px) {
+      @media only screen and (max-width: 1200px) {
         .colorlib-feature .colorlib-icon i {
           font-size: 40px; } }
   .colorlib-feature .colorlib-text {
@@ -945,7 +975,7 @@ body.offcanvas {
   .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
     color: #2c98f0;
     font-size: 40px; }
-    @media screen and (max-width: 1200px) {
+    @media only screen and (max-width: 1200px) {
       .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
         font-size: 28px; } }
 
@@ -954,7 +984,7 @@ body.offcanvas {
   float: left;
   background: #fff;
   margin-bottom: 3em; }
-  @media screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     .blog-entry {
       margin-bottom: 3em; } }
   .blog-entry .blog-img {
@@ -1096,7 +1126,7 @@ body.offcanvas {
       .project .website1 span a {
         color: #000;
          }
-    @media screen and (max-width: 768px) {
+    @media only screen and (max-width: 768px) {
       .project .website1 {
         position: absolute;
         top: 0;
@@ -1241,7 +1271,7 @@ body.offcanvas {
       transform: translate3d(0, 15px, 0); }
       .project .SHMUP span a {
         color: #000; }
-    @media screen and (max-width: 768px) {
+    @media only screen and (max-width: 768px) {
       .project .SHMUP {
         position: absolute;
         top: 0;
@@ -1384,7 +1414,7 @@ body.offcanvas {
       transform: translate3d(0, 15px, 0); }
       .project .website2 span a {
         color: #000; }
-    @media screen and (max-width: 768px) {
+    @media only screen and (max-width: 768px) {
       .project .website2 {
         position: absolute;
         top: 0;
@@ -1527,7 +1557,7 @@ body.offcanvas {
       transform: translate3d(0, 15px, 0); }
       .project .assistant span a {
         color: #000; }
-    @media screen and (max-width: 768px) {
+    @media only screen and (max-width: 768px) {
       .project .assistant {
         position: absolute;
         top: 0;
@@ -1671,7 +1701,7 @@ body.offcanvas {
           transform: translate3d(0, 15px, 0); }
           .project .chatroom span a {
             color: #000; }
-        @media screen and (max-width: 768px) {
+        @media only screen and (max-width: 768px) {
           .project .chatroom {
             position: absolute;
             top: 0;
@@ -1814,7 +1844,7 @@ body.offcanvas {
       transform: translate3d(0, 15px, 0); }
       .project .CurbIt span a {
         color: #000; }
-    @media screen and (max-width: 768px) {
+    @media only screen and (max-width: 768px) {
       .project .CurbIt {
         position: absolute;
         top: 0;
@@ -1973,7 +2003,7 @@ body.offcanvas {
       -moz-border-radius: 7px;
       -ms-border-radius: 7px;
       border-radius: 7px; }
-      @media screen and (max-width: 768px) {
+      @media only screen and (max-width: 768px) {
         .colorlib-social li a {
           padding: 10px 8px; } }
       .colorlib-social li a:hover {
@@ -1986,7 +2016,7 @@ body.offcanvas {
 #map {
   width: 100%;
   height: 700px; }
-  @media screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     #map {
       height: 200px; } }
 
@@ -2016,7 +2046,7 @@ body.offcanvas {
         background: #2c98f0;
         color: #fff;
         border: 1px solid #2c98f0; }
-      @media screen and (max-width: 768px) {
+      @media only screen and (max-width: 768px) {
         .pagination li a {
           padding: 7px 15px; } }
     .pagination li.active a {
@@ -2261,31 +2291,31 @@ body.offcanvas {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  @media screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     .colorlib-nav-toggle {
       opacity: 1;
       visibility: visible; } }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .col-xxs-12 {
     float: none;
     width: 100%; } }
 
 .row-bottom-padded-lg {
   padding-bottom: 7em; }
-  @media screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     .row-bottom-padded-lg {
       padding-bottom: 1em; } }
 
 .row-bottom-padded-md {
   padding-bottom: 3em; }
-  @media screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     .row-bottom-padded-md {
       padding-bottom: 1em; } }
 
 .row-bottom-padded-sm {
   padding-bottom: 1em; }
-  @media screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     .row-bottom-padded-sm {
       padding-bottom: 1em; } }
 
