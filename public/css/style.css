@@ -38,7 +38,8 @@ ul {
     font-size: 16px;
     margin: 30px 30px 30px 30px; }}
 p {
-  margin: 30px 30px 30px 30px; }
+  margin: 30px 30px 30px 30px; 
+  font-size: 20px;}
   @media screen and (max-width: 992px) {
     p {
       font-size: 16px;
@@ -384,10 +385,11 @@ body.offcanvas {
 
 .colorlib-narrow-content {
   padding: 0 2.5em;
-  margin: 30px 30px 30px 30px;  }
+  margin: 30px 30px 30px 30px;
+  }
   @media screen and (max-width: 768px) {
     .colorlib-narrow-content {
-      padding: 0; 
+      padding: 0;
       margin: 30px 30px 30px 30px; } }
 
 .no-gutters {
@@ -406,7 +408,7 @@ body.offcanvas {
   padding-bottom: 2em;
   background: #0a192f;
   clear: both;
-  border: 1px solid #c5b5654d;
+  border-bottom: 1px solid #c5b5654d;
   width: 100%;
   display: block; }
   @media screen and (max-width: 768px) {
@@ -468,12 +470,25 @@ body.offcanvas {
   justify-content: space-around;
   width: 15%;
 }
+@media screen and (max-width: 768px) {
+  .footer-icons {
+    list-style: none;
+    display: flex; 
+    justify-content: space-around;
+    width: 50%;
+  }
+}
 
 .footer-div {
   display: flex; 
   justify-content: center;
 }
-
+@media screen and (max-width: 768px) {
+  .footer-div {
+    display: flex; 
+    justify-content: center;
+  }
+}
 
 .about-img {
   width: 100%;
@@ -498,7 +513,7 @@ body.offcanvas {
   color: #c6d0f0;
   letter-spacing: 0.5px;
   font-weight: 400; 
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   }
 
@@ -686,12 +701,8 @@ body.offcanvas {
   color: #000; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
-  -webkit-opacity: .4;
-  -moz-opacity: .4;
-  opacity: .4;
-  -ms-filter: alpha(opacity=40);
-  filter: alpha(opacity=40);
-  font-size: 16px; }
+  font-size: 16px;
+  color: #c4b565; }
 
 .services {
   margin-bottom: 30px;
@@ -1029,21 +1040,22 @@ body.offcanvas {
     transition: 0.3s; }
     .project .website1 .con {
       padding: 20px;
+      padding-top: 0;
       display: block;
       position: relative;
-      height: 410px; }
+      height: 390px;
+       }
       .project .website1 .con .icon {
         position: absolute;
         bottom: 0px;
-        left: auto;
-        right: auto; }
+        left: 0; }
         .project .website1 .con .icon span {
           display: inline;
           padding-right: 5px; }
           .project .website1 .con .icon span a {
             color: #fff;
             padding: 5px;
-            background: rgba(233, 233, 233, 0.116);
+            background:  rgba(255, 255, 255, 0.137);
             -webkit-border-radius: 4px;
             -moz-border-radius: 4px;
             -ms-border-radius: 4px;
@@ -1051,10 +1063,11 @@ body.offcanvas {
         .project .website1 .con .icon i {
           font-size: 16px;
           color: #fff; }
-    .project .website1 h3 {
+    .project .website1 .con h3 {
       font-family: "Quicksand", Arial, sans-serif;
-      font-size: 16px;
+      font-size: 20px;
       font-weight: 500;
+      text-align: center;
       text-transform: uppercase;
       letter-spacing: 1px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
@@ -1066,7 +1079,7 @@ body.offcanvas {
       -webkit-transform: translate3d(0, -15px, 0);
       transform: translate3d(0, -15px, 0);
       margin-bottom: 15px; }
-      .project .website1 h3 a {
+      .project .website1 .con h3 a {
         color: #fff; }
     .project .website1 span {
       display: block;
@@ -1096,21 +1109,22 @@ body.offcanvas {
         transition: 0.3s; }
         .project .website1 .con {
           padding: 20px;
+          padding-top: 0;
           display: block;
           position: relative;
-          height: 410px; }
+          height: 390px; }
           .project .website1 .con .icon {
             position: absolute;
             bottom: 0px;
-            left: auto;
-            right: auto; }
+            left: 0;
+            }
             .project .website1 .con .icon span {
               display: inline;
               padding-right: 5px; }
               .project .website1 .con .icon span a {
                 color: #fff;
                 padding: 5px;
-                background: rgba(233, 233, 233, 0.116);
+                background:  rgba(255, 255, 255, 0.137);
                 -webkit-border-radius: 4px;
                 -moz-border-radius: 4px;
                 -ms-border-radius: 4px;
@@ -1118,10 +1132,11 @@ body.offcanvas {
             .project .website1 .con .icon i {
               font-size: 16px;
               color: #fff; }
-        .project .website1 h3 {
+        .project .website1 .con h3 {
           font-family: "Quicksand", Arial, sans-serif;
-          font-size: 16px;
+          font-size: 20px;
           font-weight: 500;
+          text-align: center;
           text-transform: uppercase;
           letter-spacing: 1px;
           -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
@@ -1170,21 +1185,22 @@ body.offcanvas {
     transition: 0.3s; }
     .project .SHMUP .con {
       padding: 20px;
+      padding-top: 0;
       display: block;
       position: relative;
-      height: 410px; }
+      height: 390px; }
       .project .SHMUP .con .icon {
         position: absolute;
         bottom: 0px;
-        left: auto;
-        right: auto; }
+        left: 0;
+        }
         .project .SHMUP .con .icon span {
           display: inline;
           padding-right: 5px; }
           .project .SHMUP .con .icon span a {
             color: #fff;
             padding: 5px;
-            background: rgba(233, 233, 233, 0.199);
+            background:  rgba(255, 255, 255, 0.137);
             -webkit-border-radius: 4px;
             -moz-border-radius: 4px;
             -ms-border-radius: 4px;
@@ -1192,10 +1208,11 @@ body.offcanvas {
         .project .SHMUP .con .icon i {
           font-size: 16px;
           color: #fff; }
-    .project .SHMUP h3 {
+    .project .SHMUP .con h3 {
       font-family: "Quicksand", Arial, sans-serif;
-      font-size: 16px;
+      font-size: 20px;
       font-weight: 500;
+      text-align: center;
       text-transform: uppercase;
       letter-spacing: 1px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
@@ -1237,21 +1254,21 @@ body.offcanvas {
         transition: 0.3s; }
         .project .SHMUP .con {
           padding: 20px;
+          padding-top: 0;
           display: block;
           position: relative;
-          height: 410px; }
+          height: 390px; }
           .project .SHMUP .con .icon {
             position: absolute;
             bottom: 0px;
-            left: auto;
-            right: auto; }
+            left: 0; }
             .project .SHMUP .con .icon span {
               display: inline;
               padding-right: 5px; }
               .project .SHMUP .con .icon span a {
                 color: #fff;
                 padding: 5px;
-                background: rgba(233, 233, 233, 0.199);
+                background:  rgba(255, 255, 255, 0.137);
                 -webkit-border-radius: 4px;
                 -moz-border-radius: 4px;
                 -ms-border-radius: 4px;
@@ -1259,10 +1276,11 @@ body.offcanvas {
             .project .SHMUP .con .icon i {
               font-size: 16px;
               color: #fff; }
-        .project .SHMUP h3 {
+        .project .SHMUP .con h3 {
           font-family: "Quicksand", Arial, sans-serif;
-          font-size: 16px;
+          font-size: 20px;
           font-weight: 500;
+          text-align: center;
           text-transform: uppercase;
           letter-spacing: 1px;
           -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
@@ -1311,21 +1329,21 @@ body.offcanvas {
     transition: 0.3s; }
     .project .website2 .con {
       padding: 20px;
+      padding-top: 0;
       display: block;
       position: relative;
-      height: 410px; }
+      height: 390px; }
       .project .website2 .con .icon {
         position: absolute;
         bottom: 0px;
-        left: auto;
-        right: auto; }
+        left: 0; }
         .project .website2 .con .icon span {
           display: inline;
           padding-right: 5px; }
           .project .website2 .con .icon span a {
             color: #fff;
             padding: 5px;
-            background: rgba(233, 233, 233, 0.116);
+            background:  rgba(255, 255, 255, 0.137);
             -webkit-border-radius: 4px;
             -moz-border-radius: 4px;
             -ms-border-radius: 4px;
@@ -1333,10 +1351,11 @@ body.offcanvas {
         .project .website2 .con .icon i {
           font-size: 16px;
           color: #fff; }
-    .project .website2 h3 {
+    .project .website2 .con h3 {
       font-family: "Quicksand", Arial, sans-serif;
-      font-size: 16px;
+      font-size: 20px;
       font-weight: 500;
+      text-align: center;
       text-transform: uppercase;
       letter-spacing: 1px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
@@ -1378,21 +1397,21 @@ body.offcanvas {
         transition: 0.3s; }
         .project .website2 .con {
           padding: 20px;
+          padding-top: 0;
           display: block;
           position: relative;
-          height: 410px; }
+          height: 390px; }
           .project .website2 .con .icon {
             position: absolute;
             bottom: 0px;
-            left: auto;
-            right: auto; }
+            left: 0; }
             .project .website2 .con .icon span {
               display: inline;
               padding-right: 5px; }
               .project .website2 .con .icon span a {
                 color: #fff;
                 padding: 5px;
-                background: rgba(233, 233, 233, 0.116);
+                background: rgba(255, 255, 255, 0.137);
                 -webkit-border-radius: 4px;
                 -moz-border-radius: 4px;
                 -ms-border-radius: 4px;
@@ -1400,10 +1419,11 @@ body.offcanvas {
             .project .website2 .con .icon i {
               font-size: 16px;
               color: #fff; }
-        .project .website2 h3 {
+        .project .website2 .con h3 {
           font-family: "Quicksand", Arial, sans-serif;
-          font-size: 16px;
+          font-size: 20px;
           font-weight: 500;
+          text-align: center;
           text-transform: uppercase;
           letter-spacing: 1px;
           -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
@@ -1452,21 +1472,21 @@ body.offcanvas {
     transition: 0.3s; }
     .project .assistant .con {
       padding: 20px;
+      padding-top: 0;
       display: block;
       position: relative;
-      height: 410px; }
+      height: 390px; }
       .project .assistant .con .icon {
         position: absolute;
         bottom: 0px;
-        left: auto;
-        right: auto; }
+        left: 0; }
         .project .assistant .con .icon span {
           display: inline;
           padding-right: 5px; }
           .project .assistant .con .icon span a {
             color: rgb(11, 0, 110);
             padding: 5px;
-            background: rgba(255, 255, 255, 0.5);
+            background:  rgba(255, 255, 255, 0.137);
             -webkit-border-radius: 4px;
             -moz-border-radius: 4px;
             -ms-border-radius: 4px;
@@ -1474,10 +1494,11 @@ body.offcanvas {
         .project .assistant .con .icon i {
           font-size: 16px;
           color: rgb(11, 0, 110); }
-    .project .assistant h3 {
+    .project .assistant .con h3 {
       font-family: "Quicksand", Arial, sans-serif;
-      font-size: 16px;
+      font-size: 20px;
       font-weight: 500;
+      text-align: center;
       text-transform: uppercase;
       letter-spacing: 1px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
@@ -1519,21 +1540,21 @@ body.offcanvas {
         transition: 0.3s; }
         .project .assistant .con {
           padding: 20px;
+          padding-top: 0;
           display: block;
           position: relative;
-          height: 410px; }
+          height: 390px; }
           .project .assistant .con .icon {
             position: absolute;
             bottom: 0px;
-            left: auto;
-            right: auto; }
+            left: 0; }
             .project .assistant .con .icon span {
               display: inline;
               padding-right: 5px; }
               .project .assistant .con .icon span a {
                 color: rgb(11, 0, 110);
                 padding: 5px;
-                background: rgba(255, 255, 255, 0.5);
+                background:  rgba(255, 255, 255, 0.137);
                 -webkit-border-radius: 4px;
                 -moz-border-radius: 4px;
                 -ms-border-radius: 4px;
@@ -1541,10 +1562,11 @@ body.offcanvas {
             .project .assistant .con .icon i {
               font-size: 16px;
               color: rgb(11, 0, 110); }
-        .project .assistant h3 {
+        .project .assistant .con h3 {
           font-family: "Quicksand", Arial, sans-serif;
-          font-size: 16px;
+          font-size: 20px;
           font-weight: 500;
+          text-align: center;
           text-transform: uppercase;
           letter-spacing: 1px;
           -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
@@ -1580,112 +1602,47 @@ body.offcanvas {
     .project:hover .assistant span {
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); }
+
   .project .chatroom {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #fcfcfc;
-    opacity: 0;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s; }
-    .project .chatroom .con {
-      padding: 20px;
-      display: block;
-      position: relative;
-      height: 410px; }
-      .project .chatroom .con .icon {
-        position: absolute;
-        bottom: 0px;
-        left: auto;
-        right: auto; }
-        .project .chatroom .con .icon span {
-          display: inline;
-          padding-right: 5px; }
-          .project .chatroom .con .icon span a {
-            color: #000;
-            padding: 5px;
-            background: rgb(233, 233, 233);
-            -webkit-border-radius: 4px;
-            -moz-border-radius: 4px;
-            -ms-border-radius: 4px;
-            border-radius: 4px; }
-        .project .chatroom .con .icon i {
-          font-size: 16px;
-          color: #000; }
-    .project .chatroom h3 {
-      font-family: "Quicksand", Arial, sans-serif;
-      font-size: 16px;
-      font-weight: 500;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-      -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-      transition: opacity 0.3s, -webkit-transform 0.3s;
-      -o-transition: transform 0.3s, opacity 0.3s;
-      transition: transform 0.3s, opacity 0.3s;
-      transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
-      -webkit-transform: translate3d(0, -15px, 0);
-      transform: translate3d(0, -15px, 0);
-      margin-bottom: 15px; }
-      .project .chatroom h3 a {
-        color: #000; }
-    .project .chatroom span {
-      display: block;
-      color: #000;
-      font-size: 13px;
-      -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-      -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-      transition: opacity 0.3s, -webkit-transform 0.3s;
-      -o-transition: transform 0.3s, opacity 0.3s;
-      transition: transform 0.3s, opacity 0.3s;
-      transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
-      -webkit-transform: translate3d(0, 15px, 0);
-      transform: translate3d(0, 15px, 0); }
-      .project .chatroom span a {
-        color: #000; }
-    @media screen and (max-width: 768px) {
-      .project .chatroom {
         position: absolute;
         top: 0;
         bottom: 0;
         left: 0;
         right: 0;
-        background: #fcfcfc;
+        background: #e28047;
         opacity: 0;
         -webkit-transition: 0.3s;
         -o-transition: 0.3s;
         transition: 0.3s; }
         .project .chatroom .con {
           padding: 20px;
+          padding-top: 0;
           display: block;
           position: relative;
-          height: 410px; }
+          height: 390px; }
           .project .chatroom .con .icon {
             position: absolute;
             bottom: 0px;
-            left: auto;
-            right: auto; }
+            left: 0; }
             .project .chatroom .con .icon span {
               display: inline;
               padding-right: 5px; }
               .project .chatroom .con .icon span a {
-                color: #000;
+                color: #fff;
                 padding: 5px;
-                background: rgb(233, 233, 233);
+                background: rgba(255, 255, 255, 0.137);
                 -webkit-border-radius: 4px;
                 -moz-border-radius: 4px;
                 -ms-border-radius: 4px;
                 border-radius: 4px; }
             .project .chatroom .con .icon i {
               font-size: 16px;
-              color: #000; }
-        .project .chatroom h3 {
+              color: #fff; }
+        .project .chatroom .con h3 {
           font-family: "Quicksand", Arial, sans-serif;
-          font-size: 16px;
+          font-size: 20px;
           font-weight: 500;
+          text-align: center;
           text-transform: uppercase;
           letter-spacing: 1px;
           -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
@@ -1698,10 +1655,10 @@ body.offcanvas {
           transform: translate3d(0, -15px, 0);
           margin-bottom: 15px; }
           .project .chatroom h3 a {
-            color: #000; }
+            color: #fff; }
         .project .chatroom span {
           display: block;
-          color: #000;
+          color: #fff;
           font-size: 13px;
           -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
           -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -1712,15 +1669,83 @@ body.offcanvas {
           -webkit-transform: translate3d(0, 15px, 0);
           transform: translate3d(0, 15px, 0); }
           .project .chatroom span a {
-            color: #000; } }
-  .project:hover .chatroom {
-    opacity: 1; }
-    .project:hover .chatroom h3 {
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0); }
-    .project:hover .chatroom span {
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0); }
+            color: #000; }
+        @media screen and (max-width: 768px) {
+          .project .chatroom {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #e28047;
+            opacity: 0;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+            .project .chatroom .con {
+              padding: 20px;
+              padding-top: 0;
+              display: block;
+              position: relative;
+              height: 390px; }
+              .project .chatroom .con .icon {
+                position: absolute;
+                bottom: 0px;
+                left: 0; }
+                .project .chatroom .con .icon span {
+                  display: inline;
+                  padding-right: 5px; }
+                  .project .chatroom .con .icon span a {
+                    color: #fff;
+                    padding: 5px;
+                    background:  rgba(255, 255, 255, 0.137);
+                    -webkit-border-radius: 4px;
+                    -moz-border-radius: 4px;
+                    -ms-border-radius: 4px;
+                    border-radius: 4px; }
+                .project .chatroom .con .icon i {
+                  font-size: 16px;
+                  color: #fff; }
+            .project .chatroom .con h3 {
+              font-family: "Quicksand", Arial, sans-serif;
+              font-size: 20px;
+              font-weight: 500;
+              text-align: center;
+              text-transform: uppercase;
+              letter-spacing: 1px;
+              -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+              -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+              transition: opacity 0.3s, -webkit-transform 0.3s;
+              -o-transition: transform 0.3s, opacity 0.3s;
+              transition: transform 0.3s, opacity 0.3s;
+              transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+              -webkit-transform: translate3d(0, -15px, 0);
+              transform: translate3d(0, -15px, 0);
+              margin-bottom: 15px; }
+              .project .chatroom h3 a {
+                color: #fff; }
+            .project .chatroom span {
+              display: block;
+              color: #fff;
+              font-size: 13px;
+              -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+              -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+              transition: opacity 0.3s, -webkit-transform 0.3s;
+              -o-transition: transform 0.3s, opacity 0.3s;
+              transition: transform 0.3s, opacity 0.3s;
+              transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+              -webkit-transform: translate3d(0, 15px, 0);
+              transform: translate3d(0, 15px, 0); }
+              .project .chatroom span a {
+                color: #000; } }
+      .project:hover .chatroom {
+        opacity: 1; }
+        .project:hover .chatroom h3 {
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0); }
+        .project:hover .chatroom span {
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0); }
   .project .CurbIt {
     position: absolute;
     top: 0;
@@ -1734,32 +1759,33 @@ body.offcanvas {
     transition: 0.3s; }
     .project .CurbIt .con {
       padding: 20px;
+      padding-top: 0;
       display: block;
       position: relative;
-      height: 410px; }
+      height: 390px; }
       .project .CurbIt .con .icon {
         position: absolute;
         bottom: 0px;
-        left: auto;
-        right: auto; }
+        left: 0; }
         .project .CurbIt .con .icon span {
           display: inline;
           padding-right: 5px; }
           .project .CurbIt .con .icon span a {
-            color: #333333;
+            color: #fff;
             padding: 5px;
-            background: rgba(255, 255, 255, 0.5);
+            background: rgba(255, 255, 255, 0.137);
             -webkit-border-radius: 4px;
             -moz-border-radius: 4px;
             -ms-border-radius: 4px;
             border-radius: 4px; }
         .project .CurbIt .con .icon i {
           font-size: 16px;
-          color: #333333; }
-    .project .CurbIt h3 {
+          color: #fff; }
+    .project .CurbIt .con h3 {
       font-family: "Quicksand", Arial, sans-serif;
-      font-size: 16px;
+      font-size: 20px;
       font-weight: 500;
+      text-align: center;
       text-transform: uppercase;
       letter-spacing: 1px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
@@ -1801,32 +1827,33 @@ body.offcanvas {
         transition: 0.3s; }
         .project .CurbIt .con {
           padding: 20px;
+          padding-top: 0;
           display: block;
           position: relative;
-          height: 410px; }
+          height: 390px; }
           .project .CurbIt .con .icon {
             position: absolute;
             bottom: 0px;
-            left: auto;
-            right: auto; }
+            left: 0; }
             .project .CurbIt .con .icon span {
               display: inline;
               padding-right: 5px; }
               .project .CurbIt .con .icon span a {
-                color: #333333;
+                color: #fff;
                 padding: 5px;
-                background: rgba(255, 255, 255, 0.5);
+                background:  rgba(255, 255, 255, 0.137);
                 -webkit-border-radius: 4px;
                 -moz-border-radius: 4px;
                 -ms-border-radius: 4px;
                 border-radius: 4px; }
             .project .CurbIt .con .icon i {
               font-size: 16px;
-              color: #333333; }
-        .project .CurbIt h3 {
+              color: #fff; }
+        .project .CurbIt .con h3 {
           font-family: "Quicksand", Arial, sans-serif;
-          font-size: 16px;
+          font-size: 20px;
           font-weight: 500;
+          text-align: center;
           text-transform: uppercase;
           letter-spacing: 1px;
           -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;

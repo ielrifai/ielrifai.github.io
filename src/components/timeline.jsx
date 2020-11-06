@@ -21,7 +21,7 @@ export default class Timeline extends Component {
                         <i className="icon-briefcase" />
                       </div>
                       <div className="timeline-label">
-                        <h2>QA Automation Analyst, Intern at J.D. Power | Autodata Solutions  <span>  Aug 2020 - present</span></h2>
+                        <h2>QA Automation Analyst, Intern at J.D. Power | Autodata Solutions&emsp;<span> Aug 2020 - present</span></h2>
                         <p>I have recently joined the Autodata Solutions as a QA Automation Analyst Intern. My tasks in this role are:<br/><br/>
                         <ul>	
                           <li>Assigned to the COE (Center of Excellence) team to help spread best practices across the company’s services.</li>
@@ -39,7 +39,7 @@ export default class Timeline extends Component {
                         <i className="icon-briefcase" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Web Developer/Designer at Western University<span>  May - Aug 2020</span></h2>
+                        <h2>Web Developer/Designer at Western University&emsp;<span>  May - Aug 2020</span></h2>
                         <p>I worked as a web developer/designer for the whole summer with the Dept. of Earth Sciences at Western University to take the lead in developing a website from scratch for the ‘GAC-MAC LONDON 2021’ event.<br/> <br/>
                         <ul>
                           <li>Designed and developed the front-end using a combination of both PHP and WordPress. While the back-end was developed using PHP along with MySQL as the database tool.</li>

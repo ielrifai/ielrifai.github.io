@@ -11,7 +11,7 @@ export default class Projects extends Component {
 								<span className="heading-meta">My Work</span>
 								<h2 className="colorlib-heading animate-box">Recent Projects</h2>
 							</div>
-						</div>
+						</div><br/>
 						<div className="row">
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
 								<div className="project" style={{backgroundImage: 'url(images/AI-cover.png)'}}>

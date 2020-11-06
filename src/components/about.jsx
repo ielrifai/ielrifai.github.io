@@ -12,8 +12,8 @@ export default class About extends Component {
                 <div className="col-md-12">
                     <div className="about-desc">
                     <span className="heading-meta">About Me</span>
-                    <h2 className="colorlib-heading">Who Am I?</h2>
-                    <img className="author-img" src="images/LinkedIn_pic.jpg" style={{float:"right", position: "relative", width: "25%", height: "50%", borderRadius: "50%"}}/>
+                    <h2 className="colorlib-heading">Who Am I?</h2><br/>
+                    <img className="author-img" src="images/LinkedIn_pic.jpg" style={{float:"left", position: "relative", width: "25%", height: "50%", borderRadius: "50%"}}/>
                     <p>A fourth-year Software Engineering undergraduate student at Western University with an interest <br/>in software design, web development, mobile app development, databases, and operating systems.</p>
                     <p>When I'm not studying or coding my next project, I enjoy
                         <ul>
@@ -36,7 +36,7 @@ export default class About extends Component {
                 <span className="heading-meta">Skills</span>
                 <h2 className="colorlib-heading">What are my strengths?</h2>
             </div>
-            </div>
+            </div><br/>
             <div className="row row-pt-md">
             <div className="col-md-4 text-center animate-box">
                 <div className="services color-1">
