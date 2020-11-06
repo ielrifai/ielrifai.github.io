@@ -17,7 +17,7 @@ body {
   font-size: 15px;
   line-height: 1.8;
   color: #ccd6f6; }
-  @media only screen and (max-width: 992px) {
+  @media screen and (max-width: 992px) {
     body {
       font-size: 16px; } }
 
@@ -33,14 +33,14 @@ a {
 
 ul {
   margin: 30px 30px 30px 30px; }
-  @media only screen and (max-width: 992px) {
+  @media screen and (max-width: 992px) {
   ul  {
     font-size: 16px;
     margin: 30px 30px 30px 30px; }}
 p {
   margin: 30px 30px 30px 30px; 
   font-size: 20px;}
-  @media only screen and (max-width: 992px) {
+  @media screen and (max-width: 992px) {
     p {
       font-size: 16px;
       margin: 30px 30px 30px 30px; }}
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", Georgia, serif;
   font-weight: 400;
   margin: 30px 30px 30px 30px;  }
-  @media only screen and (max-width: 992px) {
+  @media screen and (max-width: 992px) {
     h1, h2, h3, h4, h5, h6 {
       font-size: 16px;
       margin: 30px 30px 30px 30px; }}
@@ -67,7 +67,7 @@ figure {
     color: #b3b3b3;
     font-style: italic;
     font-family: "Quicksand", Arial, sans-serif; }
-    @media only screen and (max-width: 480px) {
+    @media screen and (max-width: 480px) {
       figure figcaption {
         width: 100%; } }
 
@@ -100,7 +100,7 @@ figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     #colorlib-aside {
       width: 300px;
       margin: 30px 30px 30px 30px; 
@@ -148,7 +148,7 @@ figure {
       text-align: center;
       margin: 0;
       padding: 0; }
-      @media only screen and (max-width: 768px) {
+      @media screen and (max-width: 768px) {
         #colorlib-aside #colorlib-main-menu ul {
           margin: 0 0 2em 0; } }
       #colorlib-aside #colorlib-main-menu ul li {
@@ -213,7 +213,7 @@ figure {
     color: #55da92;
     padding: 0 20px;
     width: 100%; }
-    @media only screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       #colorlib-aside .colorlib-footer {
         position: relative;
         bottom: 0; } }
@@ -245,7 +245,7 @@ figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     #colorlib-main {
       width: 100%;
       padding: 0; } }
@@ -276,7 +276,7 @@ figure {
       float: left;
       width: auto;
       margin: 30px 30px 30px 30px;  }
-      @media only screen and (max-width: 768px) {
+      @media screen and (max-width: 768px) {
         #colorlib-hero .flexslider .flex-control-nav {
           top: 100px; 
           margin: 30px 30px 30px 30px; } }
@@ -309,7 +309,7 @@ figure {
         min-height: 700px;
         padding: 2.5em;
         position: relative; }
-        @media only screen and (max-width: 768px) {
+        @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
@@ -322,7 +322,7 @@ figure {
           font-size: 80px;
           line-height: 1.3;
           font-weight: 700; }
-          @media only screen and (max-width: 768px) {
+          @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
               font-size: 28px; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
@@ -336,7 +336,7 @@ figure {
             border-bottom: 1px solid rgba(44, 152, 240, 0.7); }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner .heading-section {
           font-size: 50px; }
-          @media only screen and (max-width: 768px) {
+          @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .heading-section {
               font-size: 30px; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner s.colorlib-lead {
@@ -359,7 +359,7 @@ figure {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               background: transparent !important;
               border: 1px solid #ccd6f6 !important; }
-          @media only screen and (max-width: 768px) {
+          @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }
 
@@ -387,7 +387,7 @@ body.offcanvas {
   padding: 0 2.5em;
   margin: 30px 30px 30px 30px;
   }
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .colorlib-narrow-content {
       padding: 0;
       margin: 30px 30px 30px 30px; } }
@@ -411,7 +411,7 @@ body.offcanvas {
   border-bottom: 1px solid #c5b5654d;
   width: 100%;
   display: block; }
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .colorlib-experience,
     .colorlib-skills,
     .colorlib-education,
@@ -441,7 +441,7 @@ body.offcanvas {
   position: relative; }
   .colorlib-heading span {
     display: block; }
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .colorlib-heading {
       margin-bottom: 3em; } }
 
@@ -470,7 +470,7 @@ body.offcanvas {
   justify-content: space-around;
   width: 15%;
 }
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .footer-icons {
     list-style: none;
     display: flex; 
@@ -483,7 +483,7 @@ body.offcanvas {
   display: flex; 
   justify-content: center;
 }
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .footer-div {
     display: flex; 
     justify-content: center;
@@ -502,19 +502,23 @@ body.offcanvas {
   transform: translate(-50%, -50%);
 }
 
+.about-desc .view-cv {
+  text-align: center;
+}
+
 .about-desc p {
   margin-bottom: 15px;
-  display: table;
+  display: block;
   color: #c6d0f0;
   letter-spacing: 0.5px;
   font-weight: 400; 
   font-size: 20px;
   text-align: left;
   }
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .about-desc p {
     margin-bottom: 15px;
-    display: table;
+    display: block;
     color: #c6d0f0;
     letter-spacing: 0.5px;
     font-weight: 400; 
@@ -523,17 +527,17 @@ body.offcanvas {
 
   .about-desc p ul{
     margin-bottom: 15px;
-    display: table;
+    display: block;
     color: #c6d0f0;
     letter-spacing: 0.5px;
     font-weight: 400; 
     font-size: 20px;
     text-align: left;
     }
-    @media only screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       .about-desc p ul {
       margin-bottom: 15px;
-      display: table;
+      display: block;
       color: #c6d0f0;
       letter-spacing: 0.5px;
       font-weight: 400; 
@@ -543,7 +547,7 @@ body.offcanvas {
 .author-img {
   margin-right: 5em;
 }
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .author-img  {
     margin-right: 1em; } }
 
@@ -774,9 +778,26 @@ body.offcanvas {
   margin-bottom: 80px;
   position: relative;
   z-index: 0; }
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .services {
-      margin-bottom: 4em; } }
+      margin-bottom: 80px;
+      height: 700px;
+      width: 100%;
+      display: block; } }
+      @media screen and (min-width: 600px) {
+        .services {
+          margin-bottom: 80px;
+          height: 600px;
+          width: 100%;
+          display: block; } }
+          @media screen and (max-width: 600px) {
+            .services {
+              margin-bottom: 80px;
+              height: 300px;
+              width: 100%;
+              display: block; } }
+
+
   .services .icon {
     position: absolute;
     top: -20px;
@@ -954,7 +975,7 @@ body.offcanvas {
       color: #2c98f0;
       font-size: 60px;
       height: 100px; }
-      @media only screen and (max-width: 1200px) {
+      @media screen and (max-width: 1200px) {
         .colorlib-feature .colorlib-icon i {
           font-size: 40px; } }
   .colorlib-feature .colorlib-text {
@@ -975,7 +996,7 @@ body.offcanvas {
   .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
     color: #2c98f0;
     font-size: 40px; }
-    @media only screen and (max-width: 1200px) {
+    @media screen and (max-width: 1200px) {
       .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
         font-size: 28px; } }
 
@@ -984,7 +1005,7 @@ body.offcanvas {
   float: left;
   background: #fff;
   margin-bottom: 3em; }
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .blog-entry {
       margin-bottom: 3em; } }
   .blog-entry .blog-img {
@@ -1126,7 +1147,7 @@ body.offcanvas {
       .project .website1 span a {
         color: #000;
          }
-    @media only screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       .project .website1 {
         position: absolute;
         top: 0;
@@ -1195,6 +1216,75 @@ body.offcanvas {
           transform: translate3d(0, 15px, 0); }
           .project .website1 span a {
             color: #000; } }
+            @media screen and (min-width: 600px) {
+              .project .website1 {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: #7456c7;
+                opacity: 0;
+                -webkit-transition: 0.3s;
+                -o-transition: 0.3s;
+                transition: 0.3s; }
+                .project .website1 .con {
+                  padding: 20px;
+                  padding-top: 0;
+                  display: block;
+                  position: relative;
+                  height: 390px; }
+                  .project .website1 .con .icon {
+                    position: absolute;
+                    bottom: 0px;
+                    left: 0;
+                    }
+                    .project .website1 .con .icon span {
+                      display: inline;
+                      padding-right: 5px; }
+                      .project .website1 .con .icon span a {
+                        color: #fff;
+                        padding: 5px;
+                        background:  rgba(255, 255, 255, 0.137);
+                        -webkit-border-radius: 4px;
+                        -moz-border-radius: 4px;
+                        -ms-border-radius: 4px;
+                        border-radius: 4px; }
+                    .project .website1 .con .icon i {
+                      font-size: 16px;
+                      color: #fff; }
+                .project .website1 .con h3 {
+                  font-family: "Quicksand", Arial, sans-serif;
+                  font-size: 17px;
+                  font-weight: 500;
+                  text-align: center;
+                  text-transform: uppercase;
+                  letter-spacing: 1px;
+                  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+                  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+                  transition: opacity 0.3s, -webkit-transform 0.3s;
+                  -o-transition: transform 0.3s, opacity 0.3s;
+                  transition: transform 0.3s, opacity 0.3s;
+                  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+                  -webkit-transform: translate3d(0, -15px, 0);
+                  transform: translate3d(0, -15px, 0);
+                  margin-bottom: 15px; }
+                  .project .website1 h3 a {
+                    color: #fff; }
+                .project .website1 span {
+                  display: block;
+                  color: #fff;
+                  font-size: 13px;
+                  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+                  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+                  transition: opacity 0.3s, -webkit-transform 0.3s;
+                  -o-transition: transform 0.3s, opacity 0.3s;
+                  transition: transform 0.3s, opacity 0.3s;
+                  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+                  -webkit-transform: translate3d(0, 15px, 0);
+                  transform: translate3d(0, 15px, 0); }
+                  .project .website1 span a {
+                    color: #000; } }
   .project:hover .website1 {
     opacity: 1; }
     .project:hover .website1 h3 {
@@ -1271,7 +1361,7 @@ body.offcanvas {
       transform: translate3d(0, 15px, 0); }
       .project .SHMUP span a {
         color: #000; }
-    @media only screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       .project .SHMUP {
         position: absolute;
         top: 0;
@@ -1339,6 +1429,76 @@ body.offcanvas {
           transform: translate3d(0, 15px, 0); }
           .project .SHMUP span a {
             color: #000; } }
+
+            @media screen and (min-width: 600px) {
+              .project .SHMUP {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: rgb(170, 0, 0);
+                opacity: 0;
+                -webkit-transition: 0.3s;
+                -o-transition: 0.3s;
+                transition: 0.3s; }
+                .project .SHMUP .con {
+                  padding: 20px;
+                  padding-top: 0;
+                  display: block;
+                  position: relative;
+                  height: 390px; }
+                  .project .SHMUP .con .icon {
+                    position: absolute;
+                    bottom: 0px;
+                    left: 20%; }
+                    .project .SHMUP .con .icon span {
+                      display: inline;
+                      padding-right: 5px; }
+                      .project .SHMUP .con .icon span a {
+                        color: #fff;
+                        padding: 5px;
+                        background:  rgba(255, 255, 255, 0.137);
+                        -webkit-border-radius: 4px;
+                        -moz-border-radius: 4px;
+                        -ms-border-radius: 4px;
+                        border-radius: 4px; }
+                    .project .SHMUP .con .icon i {
+                      font-size: 16px;
+                      color: #fff; }
+                .project .SHMUP .con h3 {
+                  font-family: "Quicksand", Arial, sans-serif;
+                  font-size: 17px;
+                  font-weight: 500;
+                  text-align: center;
+                  text-transform: uppercase;
+                  letter-spacing: 1px;
+                  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+                  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+                  transition: opacity 0.3s, -webkit-transform 0.3s;
+                  -o-transition: transform 0.3s, opacity 0.3s;
+                  transition: transform 0.3s, opacity 0.3s;
+                  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+                  -webkit-transform: translate3d(0, -15px, 0);
+                  transform: translate3d(0, -15px, 0);
+                  margin-bottom: 15px; }
+                  .project .SHMUP h3 a {
+                    color: #fff; }
+                .project .SHMUP span {
+                  display: block;
+                  color: #fff;
+                  font-size: 13px;
+                  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+                  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+                  transition: opacity 0.3s, -webkit-transform 0.3s;
+                  -o-transition: transform 0.3s, opacity 0.3s;
+                  transition: transform 0.3s, opacity 0.3s;
+                  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+                  -webkit-transform: translate3d(0, 15px, 0);
+                  transform: translate3d(0, 15px, 0); }
+                  .project .SHMUP span a {
+                    color: #000; } }
+
   .project:hover .SHMUP {
     opacity: 1; }
     .project:hover .SHMUP h3 {
@@ -1414,7 +1574,7 @@ body.offcanvas {
       transform: translate3d(0, 15px, 0); }
       .project .website2 span a {
         color: #000; }
-    @media only screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       .project .website2 {
         position: absolute;
         top: 0;
@@ -1482,6 +1642,74 @@ body.offcanvas {
           transform: translate3d(0, 15px, 0); }
           .project .website2 span a {
             color: #000; }}
+            @media screen and (min-width: 600px) {
+              .project .website2 {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: #b9a34a;
+                opacity: 0;
+                -webkit-transition: 0.3s;
+                -o-transition: 0.3s;
+                transition: 0.3s; }
+                .project .website2 .con {
+                  padding: 20px;
+                  padding-top: 0;
+                  display: block;
+                  position: relative;
+                  height: 390px; }
+                  .project .website2 .con .icon {
+                    position: absolute;
+                    bottom: 0px;
+                    left: 0; }
+                    .project .website2 .con .icon span {
+                      display: inline;
+                      padding-right: 5px; }
+                      .project .website2 .con .icon span a {
+                        color: #fff;
+                        padding: 5px;
+                        background: rgba(255, 255, 255, 0.137);
+                        -webkit-border-radius: 4px;
+                        -moz-border-radius: 4px;
+                        -ms-border-radius: 4px;
+                        border-radius: 4px; }
+                    .project .website2 .con .icon i {
+                      font-size: 16px;
+                      color: #fff; }
+                .project .website2 .con h3 {
+                  font-family: "Quicksand", Arial, sans-serif;
+                  font-size: 15px;
+                  font-weight: 500;
+                  text-align: center;
+                  text-transform: uppercase;
+                  letter-spacing: 1px;
+                  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+                  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+                  transition: opacity 0.3s, -webkit-transform 0.3s;
+                  -o-transition: transform 0.3s, opacity 0.3s;
+                  transition: transform 0.3s, opacity 0.3s;
+                  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+                  -webkit-transform: translate3d(0, -15px, 0);
+                  transform: translate3d(0, -15px, 0);
+                  margin-bottom: 15px; }
+                  .project .website2 h3 a {
+                    color: #fff; }
+                .project .website2 span {
+                  display: block;
+                  color: #fff;
+                  font-size: 13px;
+                  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+                  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+                  transition: opacity 0.3s, -webkit-transform 0.3s;
+                  -o-transition: transform 0.3s, opacity 0.3s;
+                  transition: transform 0.3s, opacity 0.3s;
+                  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+                  -webkit-transform: translate3d(0, 15px, 0);
+                  transform: translate3d(0, 15px, 0); }
+                  .project .website2 span a {
+                    color: #000; }}
   .project:hover .website2 {
     opacity: 1; }
     .project:hover .website2 h3 {
@@ -1557,7 +1785,7 @@ body.offcanvas {
       transform: translate3d(0, 15px, 0); }
       .project .assistant span a {
         color: #000; }
-    @media only screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       .project .assistant {
         position: absolute;
         top: 0;
@@ -1625,6 +1853,75 @@ body.offcanvas {
           transform: translate3d(0, 15px, 0); }
           .project .assistant span a {
             color: #000; } }
+
+            @media screen and (min-width: 600px) {
+              .project .assistant {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: #92f085;
+                opacity: 0;
+                -webkit-transition: 0.3s;
+                -o-transition: 0.3s;
+                transition: 0.3s; }
+                .project .assistant .con {
+                  padding: 20px;
+                  padding-top: 0;
+                  display: block;
+                  position: relative;
+                  height: 390px; }
+                  .project .assistant .con .icon {
+                    position: absolute;
+                    bottom: 0px;
+                    left: 0; }
+                    .project .assistant .con .icon span {
+                      display: inline;
+                      padding-right: 5px; }
+                      .project .assistant .con .icon span a {
+                        color: rgb(11, 0, 110);
+                        padding: 5px;
+                        background:  rgba(255, 255, 255, 0.137);
+                        -webkit-border-radius: 4px;
+                        -moz-border-radius: 4px;
+                        -ms-border-radius: 4px;
+                        border-radius: 4px; }
+                    .project .assistant .con .icon i {
+                      font-size: 16px;
+                      color: rgb(11, 0, 110); }
+                .project .assistant .con h3 {
+                  font-family: "Quicksand", Arial, sans-serif;
+                  font-size: 20px;
+                  font-weight: 500;
+                  text-align: center;
+                  text-transform: uppercase;
+                  letter-spacing: 1px;
+                  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+                  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+                  transition: opacity 0.3s, -webkit-transform 0.3s;
+                  -o-transition: transform 0.3s, opacity 0.3s;
+                  transition: transform 0.3s, opacity 0.3s;
+                  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+                  -webkit-transform: translate3d(0, -15px, 0);
+                  transform: translate3d(0, -15px, 0);
+                  margin-bottom: 15px; }
+                  .project .assistant h3 a {
+                    color: rgb(11, 0, 110); }
+                .project .assistant span {
+                  display: block;
+                  color: rgb(11, 0, 110);
+                  font-size: 13px;
+                  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+                  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+                  transition: opacity 0.3s, -webkit-transform 0.3s;
+                  -o-transition: transform 0.3s, opacity 0.3s;
+                  transition: transform 0.3s, opacity 0.3s;
+                  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+                  -webkit-transform: translate3d(0, 15px, 0);
+                  transform: translate3d(0, 15px, 0); }
+                  .project .assistant span a {
+                    color: #000; } }
   .project:hover .assistant {
     opacity: 1; }
     .project:hover .assistant h3 {
@@ -1701,7 +1998,7 @@ body.offcanvas {
           transform: translate3d(0, 15px, 0); }
           .project .chatroom span a {
             color: #000; }
-        @media only screen and (max-width: 768px) {
+        @media screen and (max-width: 768px) {
           .project .chatroom {
             position: absolute;
             top: 0;
@@ -1769,6 +2066,75 @@ body.offcanvas {
               transform: translate3d(0, 15px, 0); }
               .project .chatroom span a {
                 color: #000; } }
+
+                @media screen and (min-width: 600px) {
+                  .project .chatroom {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    background: #e28047;
+                    opacity: 0;
+                    -webkit-transition: 0.3s;
+                    -o-transition: 0.3s;
+                    transition: 0.3s; }
+                    .project .chatroom .con {
+                      padding: 20px;
+                      padding-top: 0;
+                      display: block;
+                      position: relative;
+                      height: 390px; }
+                      .project .chatroom .con .icon {
+                        position: absolute;
+                        bottom: 0px;
+                        left: 0; }
+                        .project .chatroom .con .icon span {
+                          display: inline;
+                          padding-right: 5px; }
+                          .project .chatroom .con .icon span a {
+                            color: #fff;
+                            padding: 5px;
+                            background:  rgba(255, 255, 255, 0.137);
+                            -webkit-border-radius: 4px;
+                            -moz-border-radius: 4px;
+                            -ms-border-radius: 4px;
+                            border-radius: 4px; }
+                        .project .chatroom .con .icon i {
+                          font-size: 16px;
+                          color: #fff; }
+                    .project .chatroom .con h3 {
+                      font-family: "Quicksand", Arial, sans-serif;
+                      font-size: 15px;
+                      font-weight: 500;
+                      text-align: center;
+                      text-transform: uppercase;
+                      letter-spacing: 1px;
+                      -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+                      -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+                      transition: opacity 0.3s, -webkit-transform 0.3s;
+                      -o-transition: transform 0.3s, opacity 0.3s;
+                      transition: transform 0.3s, opacity 0.3s;
+                      transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+                      -webkit-transform: translate3d(0, -15px, 0);
+                      transform: translate3d(0, -15px, 0);
+                      margin-bottom: 15px; }
+                      .project .chatroom h3 a {
+                        color: #fff; }
+                    .project .chatroom span {
+                      display: block;
+                      color: #fff;
+                      font-size: 12px;
+                      -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+                      -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+                      transition: opacity 0.3s, -webkit-transform 0.3s;
+                      -o-transition: transform 0.3s, opacity 0.3s;
+                      transition: transform 0.3s, opacity 0.3s;
+                      transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+                      -webkit-transform: translate3d(0, 15px, 0);
+                      transform: translate3d(0, 15px, 0); }
+                      .project .chatroom span a {
+                        color: #000; } }
       .project:hover .chatroom {
         opacity: 1; }
         .project:hover .chatroom h3 {
@@ -1844,7 +2210,7 @@ body.offcanvas {
       transform: translate3d(0, 15px, 0); }
       .project .CurbIt span a {
         color: #000; }
-    @media only screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       .project .CurbIt {
         position: absolute;
         top: 0;
@@ -1912,6 +2278,76 @@ body.offcanvas {
           transform: translate3d(0, 15px, 0); }
           .project .CurbIt span a {
             color: #000; } }
+
+            @media screen and (min-width: 600px) {
+              .project .CurbIt {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: #42b4e6;
+                opacity: 0;
+                -webkit-transition: 0.3s;
+                -o-transition: 0.3s;
+                transition: 0.3s; }
+                .project .CurbIt .con {
+                  padding: 20px;
+                  padding-top: 0;
+                  display: block;
+                  position: relative;
+                  height: 390px; }
+                  .project .CurbIt .con .icon {
+                    position: absolute;
+                    left: 0;
+                     }
+                    .project .CurbIt .con .icon span {
+                      display: inline;
+                      padding-right: 5px; }
+                      .project .CurbIt .con .icon span a {
+                        color: #fff;
+                        padding: 5px;
+                        background:  rgba(255, 255, 255, 0.137);
+                        -webkit-border-radius: 4px;
+                        -moz-border-radius: 4px;
+                        -ms-border-radius: 4px;
+                        border-radius: 4px; }
+                    .project .CurbIt .con .icon i {
+                      font-size: 13px;
+                      color: #fff; }
+                .project .CurbIt .con h3 {
+                  font-family: "Quicksand", Arial, sans-serif;
+                  font-size: 15px;
+                  font-weight: 500;
+                  text-align: center;
+                  text-transform: uppercase;
+                  letter-spacing: 1px;
+                  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+                  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+                  transition: opacity 0.3s, -webkit-transform 0.3s;
+                  -o-transition: transform 0.3s, opacity 0.3s;
+                  transition: transform 0.3s, opacity 0.3s;
+                  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+                  -webkit-transform: translate3d(0, -15px, 0);
+                  transform: translate3d(0, -15px, 0);
+                  margin-bottom: 15px; }
+                  .project .CurbIt h3 a {
+                    color: #fff; }
+                .project .CurbIt span {
+                  display: block;
+                  color: #fff;
+                  font-size: 13px;
+                  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+                  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+                  transition: opacity 0.3s, -webkit-transform 0.3s;
+                  -o-transition: transform 0.3s, opacity 0.3s;
+                  transition: transform 0.3s, opacity 0.3s;
+                  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+                  -webkit-transform: translate3d(0, 15px, 0);
+                  transform: translate3d(0, 15px, 0); }
+                  .project .CurbIt span a {
+                    color: #000; } }
+
   .project:hover .CurbIt {
     opacity: 1; }
     .project:hover .CurbIt h3 {
@@ -2003,7 +2439,7 @@ body.offcanvas {
       -moz-border-radius: 7px;
       -ms-border-radius: 7px;
       border-radius: 7px; }
-      @media only screen and (max-width: 768px) {
+      @media screen and (max-width: 768px) {
         .colorlib-social li a {
           padding: 10px 8px; } }
       .colorlib-social li a:hover {
@@ -2016,7 +2452,7 @@ body.offcanvas {
 #map {
   width: 100%;
   height: 700px; }
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     #map {
       height: 200px; } }
 
@@ -2046,7 +2482,7 @@ body.offcanvas {
         background: #2c98f0;
         color: #fff;
         border: 1px solid #2c98f0; }
-      @media only screen and (max-width: 768px) {
+      @media screen and (max-width: 768px) {
         .pagination li a {
           padding: 7px 15px; } }
     .pagination li.active a {
@@ -2291,31 +2727,31 @@ body.offcanvas {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .colorlib-nav-toggle {
       opacity: 1;
       visibility: visible; } }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .col-xxs-12 {
     float: none;
     width: 100%; } }
 
 .row-bottom-padded-lg {
   padding-bottom: 7em; }
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .row-bottom-padded-lg {
       padding-bottom: 1em; } }
 
 .row-bottom-padded-md {
   padding-bottom: 3em; }
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .row-bottom-padded-md {
       padding-bottom: 1em; } }
 
 .row-bottom-padded-sm {
   padding-bottom: 1em; }
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .row-bottom-padded-sm {
       padding-bottom: 1em; } }
 
