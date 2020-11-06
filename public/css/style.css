@@ -693,7 +693,7 @@ body.offcanvas {
   margin-top: 0px; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
-  font-size: 20px;
+  font-size: 30px;
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 500; }
 
@@ -701,7 +701,7 @@ body.offcanvas {
   color: #000; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
-  font-size: 16px;
+  font-size: 20px;
   color: #c4b565; }
 
 .services {
@@ -1084,7 +1084,7 @@ body.offcanvas {
     .project .website1 span {
       display: block;
       color: #fff;
-      font-size: 13px;
+      font-size: 17px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
       -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
       transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -1094,7 +1094,8 @@ body.offcanvas {
       -webkit-transform: translate3d(0, 15px, 0);
       transform: translate3d(0, 15px, 0); }
       .project .website1 span a {
-        color: #000; }
+        color: #000;
+         }
     @media screen and (max-width: 768px) {
       .project .website1 {
         position: absolute;
@@ -1153,7 +1154,7 @@ body.offcanvas {
         .project .website1 span {
           display: block;
           color: #fff;
-          font-size: 13px;
+          font-size: 17px;
           -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
           -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
           transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -1229,7 +1230,7 @@ body.offcanvas {
     .project .SHMUP span {
       display: block;
       color: #fff;
-      font-size: 13px;
+      font-size: 17px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
       -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
       transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -1261,7 +1262,7 @@ body.offcanvas {
           .project .SHMUP .con .icon {
             position: absolute;
             bottom: 0px;
-            left: 0; }
+            left: 50%; }
             .project .SHMUP .con .icon span {
               display: inline;
               padding-right: 5px; }
@@ -1297,7 +1298,7 @@ body.offcanvas {
         .project .SHMUP span {
           display: block;
           color: #fff;
-          font-size: 13px;
+          font-size: 17px;
           -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
           -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
           transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -1372,7 +1373,7 @@ body.offcanvas {
     .project .website2 span {
       display: block;
       color: #fff;
-      font-size: 13px;
+      font-size: 17px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
       -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
       transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -1440,7 +1441,7 @@ body.offcanvas {
         .project .website2 span {
           display: block;
           color: #fff;
-          font-size: 13px;
+          font-size: 17px;
           -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
           -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
           transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -1515,7 +1516,7 @@ body.offcanvas {
     .project .assistant span {
       display: block;
       color: rgb(11, 0, 110);
-      font-size: 13px;
+      font-size: 17px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
       -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
       transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -1583,7 +1584,7 @@ body.offcanvas {
         .project .assistant span {
           display: block;
           color: rgb(11, 0, 110);
-          font-size: 13px;
+          font-size: 17px;
           -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
           -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
           transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -1659,7 +1660,7 @@ body.offcanvas {
         .project .chatroom span {
           display: block;
           color: #fff;
-          font-size: 13px;
+          font-size: 15px;
           -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
           -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
           transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -1727,7 +1728,7 @@ body.offcanvas {
             .project .chatroom span {
               display: block;
               color: #fff;
-              font-size: 13px;
+              font-size: 15px;
               -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
               -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
               transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -1802,7 +1803,7 @@ body.offcanvas {
     .project .CurbIt span {
       display: block;
       color: #fff;
-      font-size: 13px;
+      font-size: 17px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
       -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
       transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -1833,8 +1834,8 @@ body.offcanvas {
           height: 390px; }
           .project .CurbIt .con .icon {
             position: absolute;
-            bottom: 0px;
-            left: 0; }
+            left: 100px;
+             }
             .project .CurbIt .con .icon span {
               display: inline;
               padding-right: 5px; }
@@ -1870,7 +1871,7 @@ body.offcanvas {
         .project .CurbIt span {
           display: block;
           color: #fff;
-          font-size: 13px;
+          font-size: 17px;
           -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
           -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
           transition: opacity 0.3s, -webkit-transform 0.3s;

@@ -35,7 +35,11 @@ export default class Projects extends Component {
 										<div className="con">
 											<h3><a>Multi-transaction Chatroom</a></h3>
 											<span>A program that allows multiple clients to chat together on seperate physical devices.<br />
-											• This project implements concepts of multithreading and semaphores. First a main server is set up to run on a device. Clients on seperate physical devices run a python program which provides them with the front-end interface for the chatroom. The clients enter their names and desired chatroom number to enter; and then connect to the server. Only clients in the same chatroom number will be able to communicate with each other and thus maintaining the confidentiality of messages.									
+											• This project implements concepts of multithreading and semaphores. 
+											First a main server is set up to run on a device. Clients on seperate physical devices run a python program which 
+											provides them with the front-end interface for the chatroom. The clients enter their 
+											names and desired chatroom number to enter; and then connect to the server. 
+									
 											</span><br />
 											<p className="icon">
 												<span><a><i className="icon-code" /> Python & C++</a></span>
@@ -52,12 +56,9 @@ export default class Projects extends Component {
 											<h3><a>CurbIt</a></h3>
 											<span>CurbIt is a habit tracking android application which provides a framework forusers to catalogue, curtail and even curb all types of negative habits.  <br />
 											• CurbIt was built for individuals who have negative habits that they would like to improve.
-											The application is centered around the four-step process from the best-selling
-											book “You Are Not Your Brain”, written by two leading experts in neurology.
-											The four-step process is an iterative process which enables individuals to work
-											to minimize negative habits. CurbIt intuitively implements the four-step process
-											and provides various tools to motivate and retain users as they continue to
-											improve upon their bad habits.									
+											The application is centered around the four-step process, from the best-selling
+											book “You Are Not Your Brain”, which is an iterative process that enables individuals to work
+											to minimize negative habits. 								
 											</span><br />
 											<p className="icon">
 												<span><a><i className="icon-code" /> Java</a></span>
@@ -90,7 +91,7 @@ export default class Projects extends Component {
 										<div className="con">
 											<h3><a>Portfolio Website 2.0</a></h3>
 											<span>The second iteration of my portfolio website.<br />
-											• I built this website from scratch as an upgrade from my first iteration of my portfolio. 
+											• I built this responsive website from scratch using react as an upgrade from my first iteration of my portfolio. 
 											Learned bootstrap to implement this project for the first time.									
 											</span><br />
 											<p className="icon">
