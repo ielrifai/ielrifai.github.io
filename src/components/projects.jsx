@@ -55,8 +55,7 @@ export default class Projects extends Component {
 										<div className="con">
 											<h3><a>CurbIt</a></h3>
 											<span>CurbIt is a habit tracking android application which provides a framework forusers to catalogue, curtail and even curb all types of negative habits.  <br />
-											• CurbIt was built for individuals who have negative habits that they would like to improve.
-											The application is centered around the four-step process, from the best-selling
+											• The application is centered around the four-step process, from the best-selling
 											book “You Are Not Your Brain”, which is an iterative process that enables individuals to work
 											to minimize negative habits. 								
 											</span><br />
