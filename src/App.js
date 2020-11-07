@@ -40,8 +40,8 @@ class App extends Component {
             <ul className="footer-icons">
                 <li><a href="https://www.linkedin.com/in/ielrifai/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
                 <li><a href="https://github.com/ielrifai" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
-                <li><a href="mailto:ielrifai.uwo.ca" target="_blank" rel="noopener noreferrer"><i className="icon-mail" /></a></li>
-                <li><a href="mailto:ielrifai@uwo.ca" target="_blank" rel="noopener noreferrer"><i className="icon-" /></a></li>
+                <li><a href="mailto:ielrifai@uwo.ca" target="_blank" rel="noopener noreferrer"><i className="icon-mail" /></a></li>
+                <li><a href="mailto:ielrifai.uwo.ca" target="_blank" rel="noopener noreferrer"><i className="icon-" /></a></li>
             </ul>
           </div>
           </Footer>
