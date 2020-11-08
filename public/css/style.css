@@ -89,8 +89,6 @@ figure {
   position: relative; }
 
 #colorlib-aside {
-  padding-top: 1em;
-  padding-bottom: 40px;
   float: left;
   width: 300px;
   position: fixed;
@@ -100,16 +98,18 @@ figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  @media screen and (max-width: 768px) {
-    #colorlib-aside {
-      width: 300px;
-      margin: 30px 30px 30px 30px; 
-      -moz-transform: translateX(-300px);
-      -webkit-transform: translateX(-300px);
-      -ms-transform: translateX(-300px);
-      -o-transform: translateX(-300px);
-      transform: translateX(-300px);
-      padding-top: 4em; } }
+      @media screen and (max-width: 600px) {
+        #colorlib-aside {
+          float: left;
+          width: 100px;
+          position: fixed;
+          overflow: hidden;
+          z-index: 1001;
+          background: #0a192f;
+          -webkit-transition: 0.5s;
+          -o-transition: 0.5s;
+          transition: 0.5s; } }
+      
   #colorlib-aside .author-img {
     width: 150px;
     height: 150px;
@@ -152,10 +152,10 @@ figure {
         #colorlib-aside #colorlib-main-menu ul {
           margin: 0 0 2em 0; } }
       #colorlib-aside #colorlib-main-menu ul li {
-        margin: 0 0 10px 0;
+        margin: 0 0 40px 0;
         padding: 0;
         list-style: none;
-        font-size: 12px;
+        font-size: 23px;
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 1px; }
@@ -189,7 +189,7 @@ figure {
             transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
           #colorlib-aside #colorlib-main-menu ul li a:hover {
             text-decoration: none;
-            color:#55da92; }
+            color:#c5b565; }
             #colorlib-aside #colorlib-main-menu ul li a:hover:after {
               visibility: visible;
               -webkit-transform: scaleX(1);
@@ -198,7 +198,7 @@ figure {
               -o-transform: scaleX(1);
               transform: scaleX(1); }
         #colorlib-aside #colorlib-main-menu ul li.active a {
-          color: #55da92; }
+          color: #c5b565; }
           #colorlib-aside #colorlib-main-menu ul li.active a:after {
             visibility: visible;
             -webkit-transform: scaleX(1);

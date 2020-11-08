@@ -27,8 +27,8 @@ function Footer({ children }) {
 class App extends Component {
   render() {
     return (
-      <div id="colorlib-page">    
-      {/*<Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />  */}
+      <div id="colorlib-page">   
+      <Sidebar />  
 				<div id="colorlib-main">
 					<Home></Home>
 					<About></About>
