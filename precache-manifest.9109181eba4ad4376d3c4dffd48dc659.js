@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "4c1fa22778a6e16f7551",
+    "revision": "8c76998bcac50d8b7fd3",
     "url": "/static/css/main.96882f83.chunk.css"
   },
   {
-    "revision": "4c1fa22778a6e16f7551",
-    "url": "/static/js/main.4c1fa227.chunk.js"
+    "revision": "8c76998bcac50d8b7fd3",
+    "url": "/static/js/main.8c76998b.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/static/media/CV 2020.b7257528.pdf"
   },
   {
-    "revision": "e0d7d4929c18f9d57169d0a67acb7899",
+    "revision": "7536bdc3e34841a0f535aa750e4ba37e",
     "url": "/index.html"
   }
 ];
