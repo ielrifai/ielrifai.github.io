@@ -5,7 +5,7 @@ export default props => {
   return (
        <Menu id="colorlib-aside" className="border js-fullheight">
             <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
-            <img className="author-img" src="images/LinkedIn_pic.jpg"/>            
+            <img className="author-img" src="images/Logo-removebg-preview.png"/>            
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
                 <ul>
