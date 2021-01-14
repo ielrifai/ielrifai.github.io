@@ -392,6 +392,7 @@ body.offcanvas {
       padding: 0;
       margin: 30px 30px 30px 30px; } }
 
+
 .no-gutters {
   margin: 0;
   padding: 0; }
@@ -423,12 +424,37 @@ body.offcanvas {
       background: #0a192f;
       padding-top: 5em;
       padding-bottom: 8em; } }
+      @media only screen and (max-width: 600px) {
+        .colorlib-experience,
+    .colorlib-skills,
+    .colorlib-education,
+    .colorlib-blog,
+    .colorlib-work,
+    .colorlib-about,
+    .colorlib-services,
+    .colorlib-contact{
+      background: #0a192f;
+      padding-top: 5em;
+      padding-bottom: 8em; 
+    }
+      }
 
 .author-img {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative; }
+
+.service .desc {
+  margin-top: 16px;
+  margin-bottom: 2em;
+}
+@media only screen and (max-width: 600px) {
+  .service .desc {
+    margin-top: 16px;
+    margin-bottom: 2em;
+  }
+}
 
 .colorlib-heading {
   font-size: 18px;
@@ -545,11 +571,28 @@ body.offcanvas {
       text-align: left; } }
 
 .author-img {
-  margin-right: 5em;
+  float: right;
+  margin-left: 5em;
+  margin-bottom: 2em;
+  width: 30%;
+  border-radius: 50%; 
 }
 @media screen and (max-width: 768px) {
   .author-img  {
-    margin-right: 1em; } }
+  float: right;
+  margin-left: 5em;
+  margin-bottom: 2em;
+  width: 30%;
+  border-radius: 50%; } }
+  @media only screen and (max-width: 600px) {
+    .author-img {
+    float: left;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 2em;
+    width: 50%;
+    border-radius: 50%;
+  }}
 
 .about-desc h1 {
   margin-bottom: 15px;
@@ -634,6 +677,16 @@ body.offcanvas {
 .timeline-centered {
   position: relative;
   margin-bottom: 30px; }
+  @media screen and (max-width: 768px) {
+    .timeline-centered {
+      margin-bottom: 30px;
+      position: relative;
+      z-index: 0; } }
+          @media only screen and (max-width: 600px) {
+            .timeline-centered {
+              margin-bottom: 30px;
+              position: relative;
+              z-index: 0;  } }
 
 .timeline-centered:before, .timeline-centered:after {
   content: " ";
@@ -658,6 +711,11 @@ body.offcanvas {
   top: 20px;
   bottom: 20px;
   margin-left: 29px; }
+  @media only screen and (max-width: 600px) {
+    .timeline-centered:before {
+      visibility: hidden;
+    }
+  }
 
 .timeline-centered .timeline-entry {
   position: relative;
@@ -665,10 +723,20 @@ body.offcanvas {
   margin-left: 30px;
   margin-bottom: 10px;
   clear: both; }
+  @media only screen and (max-width: 600px) {
+    .timeline-centered .timeline-entry {
+      position: relative;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      clear: both;
+    }
+  }
+  
 
 .timeline-centered .timeline-entry .timeline-entry-inner {
   position: relative;
   margin-left: -20px; }
+
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
   display: block;
@@ -685,6 +753,11 @@ body.offcanvas {
   box-shadow: 0 0 0 5px #c5b565;
   line-height: 40px;
   float: left; }
+  @media only screen and (max-width: 600px) {
+    .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon{
+      visibility: hidden;
+    }
+  }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
     color: #fff; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
@@ -699,16 +772,26 @@ body.offcanvas {
     background: #c5b565;
     width: 20px;
     height: 20px;
-    margin-left: 10px; }
+    margin-left: 0px; }
+    
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
   background: #0a192f;
-  padding: 1.5em;
   margin-left: 60px;
+  padding-bottom: 1.5em;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box; }
+  @media only screen and (max-width: 600px) {
+    .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
+      background: #0a192f;
+      position: relative;
+      margin-left: -30px;
+      padding-bottom: 1.5em;
+    }
+  }
+
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label:after {
   content: '';
@@ -719,17 +802,31 @@ body.offcanvas {
   border-style: solid;
   border-width: 9px 9px 9px 0;
   border-color: transparent #f2f3f7 transparent transparent;
-  left: 0;
+  left: 0px;
   top: 0px;
   margin-left: -9px; }
+  @media only screen and (max-width: 600px) {
+    .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label:after {
+      visibility: hidden;
+    }
+  }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p {
-  font-size: 15px; }
+  font-size: 17px;
+  font-weight: 350; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
   font-size: 20px;
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 500; }
+  @media only screen and (max-width: 600px) {
+    .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
+      font-size: 20px;
+      font-family: "Quicksand", Arial, sans-serif;
+      font-weight: 500;
+      text-align: left;
+    }
+  }
  
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
   color: #000; }
@@ -738,9 +835,16 @@ body.offcanvas {
   font-size: 15px;
   color: #c4b565; }
 
-  .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label ul{
-    font-size: 15px;
+  .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p ul{
+    font-size: 17px;
+    font-weight: 350;
    }
+   @media only screen and (max-width: 600px) {
+    .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p ul {
+      font-size: 15px;
+      text-align: left;
+    }
+  }
 
 .services {
   margin-bottom: 30px;
@@ -785,21 +889,13 @@ body.offcanvas {
   @media screen and (max-width: 768px) {
     .services {
       margin-bottom: 80px;
-      height: 700px;
-      width: 100%;
-      display: block; } }
-      @media screen and (min-width: 600px) {
-        .services {
-          margin-bottom: 80px;
-          height: 600px;
-          width: 100%;
-          display: block; } }
-          @media screen and (max-width: 600px) {
+      position: relative;
+      z-index: 0; } }
+          @media only screen and (max-width: 600px) {
             .services {
               margin-bottom: 80px;
-              height: 300px;
-              width: 100%;
-              display: block; } }
+              position: relative;
+              z-index: 0;  } }
 
 
   .services .icon {
@@ -839,10 +935,16 @@ body.offcanvas {
       vertical-align: middle; }
   .services .desc {
     margin-top: 60px; }
+    @media only screen and (max-width: 600px) {
+      .services .desc .p{
+        margin-bottom: 5em;
+      }
+    }
     .services .desc h3 {
       font-size: 16px;
       font-weight: 700;
       text-transform: uppercase; }
+      
   .services.color-2 .icon {
     background: #ec5453; }
     .services.color-2 .icon:before {
@@ -1220,7 +1322,7 @@ body.offcanvas {
           transform: translate3d(0, 15px, 0); }
           .project .website1 span a {
             color: #000; } }
-            @media screen and (min-width: 600px) {
+            @media only screen and (max-width: 600px) {
               .project .website1 {
                 position: absolute;
                 top: 0;
@@ -1434,7 +1536,7 @@ body.offcanvas {
           .project .SHMUP span a {
             color: #000; } }
 
-            @media screen and (min-width: 600px) {
+            @media only screen and (max-width: 600px) {
               .project .SHMUP {
                 position: absolute;
                 top: 0;
@@ -1646,7 +1748,7 @@ body.offcanvas {
           transform: translate3d(0, 15px, 0); }
           .project .website2 span a {
             color: #000; }}
-            @media screen and (min-width: 600px) {
+            @media only screen and (max-width: 600px) {
               .project .website2 {
                 position: absolute;
                 top: 0;
@@ -1858,7 +1960,7 @@ body.offcanvas {
           .project .assistant span a {
             color: #000; } }
 
-            @media screen and (min-width: 600px) {
+            @media only screen and (max-width: 600px) {
               .project .assistant {
                 position: absolute;
                 top: 0;
@@ -2071,7 +2173,7 @@ body.offcanvas {
               .project .chatroom span a {
                 color: #000; } }
 
-                @media screen and (min-width: 600px) {
+                @media only screen and (max-width: 600px) {
                   .project .chatroom {
                     position: absolute;
                     top: 0;
@@ -2283,7 +2385,7 @@ body.offcanvas {
           .project .CurbIt span a {
             color: #000; } }
 
-            @media screen and (min-width: 600px) {
+            @media only screen and (max-width: 600px) {
               .project .CurbIt {
                 position: absolute;
                 top: 0;
@@ -2764,6 +2866,7 @@ body.offcanvas {
 
 .col-padding {
   padding: 10px !important; }
+  
 
 .js .animate-box {
   opacity: 0; }
